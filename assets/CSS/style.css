@@ -125,8 +125,19 @@ article p {
 
 .opinion-section {
   border-bottom: 1px solid gray;
-  
 }
 
+.sponsored {
+  background-color: white;
+}
 
+.sponsored img {
+  width: 100%;
+}
+
+.more-stories h2 {
+  color: rgba(3, 3, 3, 0.4);
+  font: bold 16px/16px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+}
 
