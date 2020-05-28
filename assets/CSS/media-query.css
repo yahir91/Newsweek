@@ -1,0 +1,39 @@
+@media only screen and (max-width: 767px) {
+  .none768px {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .left-header {
+    display: none;
+  }
+  .title {
+    width: 140px;
+  }
+
+  .navigation {
+    display: none !important;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .button2 {
+    font-size: 15px;
+  }
+
+  .option-img {
+    width: 40px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .header {
+    height: 100px;
+  }
+  .none992px {
+    display: none;
+  }
+}
+
+@media (max-width: 1150px) and (min-width: 768px);

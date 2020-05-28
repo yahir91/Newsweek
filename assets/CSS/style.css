@@ -1,0 +1,132 @@
+body {
+  margin: 0 auto !important;
+  max-width: 1400px;
+  background-color: #f4f5f6 !important;
+}
+
+.header {
+  background-color: #ea452f;
+  min-width: 380px;
+  height: 50px;
+}
+
+.button1 {
+  background-color: #ea452f;
+  border: none;
+  color: white;
+}
+
+.button2 {
+  font-size: 11px;
+  background-color: #ffe400;
+  border: none;
+  border-radius: 5px;
+}
+
+.button2 img {
+  width: 11px;
+}
+
+.left-header p {
+  color: white;
+}
+
+nav a {
+  color: black;
+  font-weight: bold;
+}
+nav input {
+  width: 200px;
+}
+
+article {
+  max-width: 600px;
+  width: 100%;
+  background-color: white;
+}
+article img {
+  width: 6000px;
+}
+
+article h3 {
+  font-weight: bold;
+  font-size: 21px;
+}
+
+article p {
+  font-size: smaller;
+}
+
+.heroes {
+  background-color: white;
+}
+
+.heroes h2 {
+  color: rgba(3, 3, 3, 0.4);
+  font: bold 16px/16px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+}
+
+.heroes figcaption {
+  color: #030303;
+  font-family: "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.capitalism {
+  border-top: 4px solid #f92859;
+  padding-top: 10px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid gray;
+  height: 100px;
+}
+
+.capitalism img, .socialism img {
+  height: 63px;
+  width: 63px;
+}
+
+.socialism img {
+  margin-top: 4px;
+}
+
+.socialism {
+  border-top: 1px solid gray;
+  margin-top: 1px;
+  border-bottom: 4px solid #1c87fb;
+  height: 100px;
+}
+.debate {
+  background-color: white;
+}
+
+.debate h2 {
+  color: rgba(3, 3, 3, 0.4);
+  font: bold 16px/16px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+}
+
+.opinion {
+  background-color: white;
+
+}
+
+.opinion h2 {
+  color: rgba(3, 3, 3, 0.4);
+  font: bold 16px/16px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+}
+
+.opinion img {
+  width: 63px;
+  height: 63px;
+}
+
+.opinion-section {
+  border-bottom: 1px solid gray;
+  
+}
+
+
+
