@@ -135,9 +135,23 @@ article p {
   width: 100%;
 }
 
+.more-stories {
+  background-color: white;
+}
+
 .more-stories h2 {
   color: rgba(3, 3, 3, 0.4);
   font: bold 16px/16px "Roboto Condensed", sans-serif;
   text-transform: uppercase;
+}
+
+.more-stories h3 {
+font-size: 16px;
+font-weight: bold;
+}
+
+.more-stories p {
+  font-size: 14px;
+  font-weight:lighter;
 }
 
