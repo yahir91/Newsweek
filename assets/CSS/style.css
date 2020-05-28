@@ -57,23 +57,6 @@ article p {
   font-size: smaller;
 }
 
-.heroes {
-  background-color: white;
-}
-
-.heroes h2 {
-  color: rgba(3, 3, 3, 0.4);
-  font: bold 16px/16px "Roboto Condensed", sans-serif;
-  text-transform: uppercase;
-}
-
-.heroes figcaption {
-  color: #030303;
-  font-family: "Roboto Condensed", sans-serif;
-  text-transform: uppercase;
-  font-size: 12px;
-}
-
 .capitalism {
   border-top: 4px solid #f92859;
   padding-top: 10px;
@@ -154,4 +137,48 @@ font-weight: bold;
   font-size: 14px;
   font-weight:lighter;
 }
+
+.heroes {
+  background-color: white;
+}
+
+.heroes h2 {
+  color: rgba(3, 3, 3, 0.4);
+  font: bold 16px/16px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+}
+
+.heroes figcaption {
+  color: #030303;
+  font-family: "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.heroes img {
+  width: 100%;
+}
+
+.sign{
+  background-color: white;
+}
+
+.sign-up {
+  background-color: #f4f5f6;
+}
+
+.sign-up img {
+  width:29px;
+  height:28px;
+}
+
+input[type="email"] {
+  width: 100%;
+}
+
+
+input[type="submit"] {
+  width: 100%;
+}
+
 
