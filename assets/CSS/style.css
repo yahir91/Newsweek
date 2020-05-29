@@ -222,6 +222,20 @@ input[type="submit"] {
 .u-s h2 {
   color: rgb(247, 34, 16);
   font-weight: 700;
-  font-size: 18px
+  font-size: 20px
+}
+
+.u-s h4 {
+ font-size: 17px;
+ font-weight: 900;
+}
+
+.us-aside {
+  height: 80px;
+}
+
+.us-aside img {
+max-width: 120px!important;
+max-height: 70px!important;
 }
 
