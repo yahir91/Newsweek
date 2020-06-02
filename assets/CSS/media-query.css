@@ -2,6 +2,9 @@
   .none768px {
     display: none;
   }
+  .medium {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 991px) {
@@ -25,6 +28,14 @@
   .option-img {
     width: 40px;
   }
+
+  .top-story {
+    max-height: 500px;
+  }
+
+  .heroes {
+    max-height: 600px;
+  }
 }
 
 @media only screen and (min-width: 992px) {
@@ -34,6 +45,22 @@
   .none992px {
     display: none;
   }
+
+  .debate {
+    max-height: 300px;
+  }
+
+  .opinion {
+    max-height: 700px;
+  }
 }
 
-@media (max-width: 1150px) and (min-width: 768px);
+@media (max-width: 1150px) and (min-width: 768px){
+  .top-story {
+    max-height: 500px;
+  }
+
+  .heroes {
+    max-height: 600px;
+  }
+}
