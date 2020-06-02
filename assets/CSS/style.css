@@ -40,6 +40,11 @@ nav input {
   width: 200px;
 }
 
+input[type="search"] {
+  border: none;
+  background-color: #f4f5f6 ;
+}
+
 article {
   max-width: 600px;
   width: 100%;
@@ -247,3 +252,20 @@ max-width: 120px!important;
 max-height: 70px!important;
 }
 
+footer {
+  background-color: white;
+}
+
+.top-footer {
+  height: 80px;
+}
+
+.bottom-footer {
+height: 100px;
+}
+
+.bottom-footer a {
+  font-size: 14px;
+  line-height: 15px;
+  color: #666;
+}
