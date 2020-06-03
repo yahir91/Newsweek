@@ -23,8 +23,16 @@ body {
   border-radius: 5px;
 }
 
+article img {
+  width: 6000px;
+}
+
 .button2 img {
   width: 11px;
+}
+
+article p {
+  font-size: smaller;
 }
 
 .left-header p {
@@ -42,17 +50,13 @@ nav input {
 
 input[type="search"] {
   border: none;
-  background-color: #f4f5f6 ;
+  background-color: #f4f5f6;
 }
 
 article {
   max-width: 600px;
   width: 100%;
   background-color: white;
-}
-
-article img {
-  width: 6000px;
 }
 
 article h3 {
@@ -66,10 +70,6 @@ article h2 {
   text-transform: uppercase;
 }
 
-article p {
-  font-size: smaller;
-}
-
 .capitalism {
   border-top: 4px solid #f92859;
   padding-top: 10px;
@@ -78,7 +78,8 @@ article p {
   height: 100px;
 }
 
-.capitalism img, .socialism img {
+.capitalism img,
+.socialism img {
   height: 63px;
   width: 63px;
 }
@@ -93,6 +94,7 @@ article p {
   border-bottom: 4px solid #1c87fb;
   height: 100px;
 }
+
 .debate {
   background-color: white;
 }
@@ -105,7 +107,6 @@ article p {
 
 .opinion {
   background-color: white;
-
 }
 
 .opinion h2 {
@@ -142,13 +143,13 @@ article p {
 }
 
 .more-stories h3 {
-font-size: 16px;
-font-weight: bold;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .more-stories p {
   font-size: 14px;
-  font-weight:lighter;
+  font-weight: lighter;
 }
 
 .heroes {
@@ -172,7 +173,7 @@ font-weight: bold;
   width: 100%;
 }
 
-.sign{
+.sign {
   background-color: white;
 }
 
@@ -181,14 +182,13 @@ font-weight: bold;
 }
 
 .sign-up img {
-  width:29px;
-  height:28px;
+  width: 29px;
+  height: 28px;
 }
 
 input[type="email"] {
   width: 100%;
 }
-
 
 input[type="submit"] {
   width: 100%;
@@ -199,8 +199,7 @@ input[type="submit"] {
 }
 
 .magazine h2,
-.editors-pick h2
- {
+.editors-pick h2 {
   font: bold 16px/16px "Roboto Condensed", sans-serif;
 }
 
@@ -221,7 +220,7 @@ input[type="submit"] {
 
 .editors-pick {
   background-color: white;
-  }
+}
 
 .editors-pick h4 {
   font-size: 17px;
@@ -235,12 +234,12 @@ input[type="submit"] {
 .u-s h2 {
   color: rgb(247, 34, 16);
   font-weight: 700;
-  font-size: 20px
+  font-size: 20px;
 }
 
 .u-s h4 {
- font-size: 17px;
- font-weight: 900;
+  font-size: 17px;
+  font-weight: 900;
 }
 
 .us-aside {
@@ -248,8 +247,8 @@ input[type="submit"] {
 }
 
 .us-aside img {
-max-width: 120px!important;
-max-height: 70px!important;
+  max-width: 120px !important;
+  max-height: 70px !important;
 }
 
 footer {
@@ -261,11 +260,81 @@ footer {
 }
 
 .bottom-footer {
-height: 100px;
+  height: 100px;
 }
 
 .bottom-footer a {
   font-size: 14px;
   line-height: 15px;
   color: #666;
+}
+
+@media only screen and (max-width: 767px) {
+  .none768px {
+    display: none;
+  }
+
+  .medium {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .left-header {
+    display: none;
+  }
+
+  .title {
+    width: 140px;
+  }
+
+  .navigation {
+    display: none !important;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .button2 {
+    font-size: 15px;
+  }
+
+  .option-img {
+    width: 40px;
+  }
+
+  .top-story {
+    max-height: 450px;
+  }
+
+  .heroes {
+    max-height: 600px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .header {
+    height: 100px;
+  }
+
+  .none992px {
+    display: none;
+  }
+
+  .debate {
+    max-height: 300px;
+  }
+
+  .opinion {
+    max-height: 700px;
+  }
+}
+
+@media (max-width: 1150px) and (min-width: 768px) {
+  .top-story {
+    max-height: 500px;
+  }
+
+  .heroes {
+    max-height: 600px;
+  }
 }
