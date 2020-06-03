@@ -5,12 +5,15 @@
 > This project is compatible with different devices.
 
 > Large devices
+
 ![screenshot](/assets/Screenshots/screenshot-large.png)
 
 > Medium devices
+
 ![screenshot](assets/Screenshots/screenshot-medium.png)
 
 > Small devices
+
 ![screenshot](assets/Screenshots/screenshot-small.png)
 
 
