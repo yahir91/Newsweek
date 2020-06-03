@@ -1,0 +1,340 @@
+body {
+  margin: 0 auto !important;
+  max-width: 1400px;
+  background-color: #f4f5f6 !important;
+}
+
+.header {
+  background-color: #ea452f;
+  min-width: 380px;
+  height: 50px;
+}
+
+.button1 {
+  background-color: #ea452f;
+  border: none;
+  color: white;
+}
+
+.button2 {
+  font-size: 11px;
+  background-color: #ffe400;
+  border: none;
+  border-radius: 5px;
+}
+
+article img {
+  width: 6000px;
+}
+
+.button2 img {
+  width: 11px;
+}
+
+article p {
+  font-size: smaller;
+}
+
+.left-header p {
+  color: white;
+}
+
+nav a {
+  color: black;
+  font-weight: bold;
+}
+
+nav input {
+  width: 200px;
+}
+
+input[type="search"] {
+  border: none;
+  background-color: #f4f5f6;
+}
+
+article {
+  max-width: 600px;
+  width: 100%;
+  background-color: white;
+}
+
+article h3 {
+  font-weight: bold;
+  font-size: 21px;
+}
+
+article h2 {
+  color: rgba(3, 3, 3, 0.4);
+  font: bold 16px/16px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+}
+
+.capitalism {
+  border-top: 4px solid #f92859;
+  padding-top: 10px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid gray;
+  height: 100px;
+}
+
+.capitalism img,
+.socialism img {
+  height: 63px;
+  width: 63px;
+}
+
+.socialism img {
+  margin-top: 4px;
+}
+
+.socialism {
+  border-top: 1px solid gray;
+  margin-top: 1px;
+  border-bottom: 4px solid #1c87fb;
+  height: 100px;
+}
+
+.debate {
+  background-color: white;
+}
+
+.debate h2 {
+  color: rgba(3, 3, 3, 0.4);
+  font: bold 16px/16px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+}
+
+.opinion {
+  background-color: white;
+}
+
+.opinion h2 {
+  color: rgba(3, 3, 3, 0.4);
+  font: bold 16px/16px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+}
+
+.opinion img {
+  width: 63px;
+  height: 63px;
+}
+
+.opinion-section {
+  border-bottom: 1px solid gray;
+}
+
+.sponsored {
+  background-color: white;
+}
+
+.sponsored img {
+  width: 100%;
+}
+
+.more-stories {
+  background-color: white;
+}
+
+.more-stories h2 {
+  color: rgba(3, 3, 3, 0.4);
+  font: bold 16px/16px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+}
+
+.more-stories h3 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.more-stories p {
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+.heroes {
+  background-color: white;
+}
+
+.heroes h2 {
+  color: rgba(3, 3, 3, 0.4);
+  font: bold 16px/16px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+}
+
+.heroes figcaption {
+  color: #030303;
+  font-family: "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.heroes img {
+  width: 100%;
+}
+
+.sign {
+  background-color: white;
+}
+
+.sign-up {
+  background-color: #f4f5f6;
+}
+
+.sign-up img {
+  width: 29px;
+  height: 28px;
+}
+
+input[type="email"] {
+  width: 100%;
+}
+
+input[type="submit"] {
+  width: 100%;
+}
+
+.magazine {
+  background-color: white;
+}
+
+.magazine h2,
+.editors-pick h2 {
+  font: bold 16px/16px "Roboto Condensed", sans-serif;
+}
+
+.magazine p {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.mag-cat {
+  color: white;
+}
+
+.magazine h4 {
+  font-size: 14px;
+  font-weight: 900;
+}
+
+.editors-pick {
+  background-color: white;
+}
+
+.editors-pick h4 {
+  font-size: 17px;
+  font-weight: 900;
+}
+
+.u-s {
+  background-color: white;
+}
+
+.u-s h2 {
+  color: rgb(247, 34, 16);
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.u-s h4 {
+  font-size: 17px;
+  font-weight: 900;
+}
+
+.us-aside {
+  height: 80px;
+}
+
+.us-aside img {
+  max-width: 120px !important;
+  max-height: 70px !important;
+}
+
+footer {
+  background-color: white;
+}
+
+.top-footer {
+  height: 80px;
+}
+
+.bottom-footer {
+  height: 100px;
+}
+
+.bottom-footer a {
+  font-size: 14px;
+  line-height: 15px;
+  color: #666;
+}
+
+@media only screen and (max-width: 767px) {
+  .none768px {
+    display: none;
+  }
+
+  .medium {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .left-header {
+    display: none;
+  }
+
+  .title {
+    width: 140px;
+  }
+
+  .navigation {
+    display: none !important;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .button2 {
+    font-size: 15px;
+  }
+
+  .option-img {
+    width: 40px;
+  }
+
+  .top-story {
+    max-height: 450px;
+  }
+
+  .heroes {
+    max-height: 600px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .header {
+    height: 100px;
+  }
+
+  .none992px {
+    display: none;
+  }
+
+  .debate {
+    max-height: 300px;
+  }
+
+  .opinion {
+    max-height: 700px;
+  }
+}
+
+@media (max-width: 1150px) and (min-width: 768px) {
+  .top-story {
+    max-height: 500px;
+  }
+
+  .heroes {
+    max-height: 600px;
+  }
+}
